@@ -40,4 +40,6 @@ const body = (request) => {
 
 AxiosGenerator.identifier = "dev.anuragsaini.AxiosGenerator";
 AxiosGenerator.title = "Axios Code Generator";
+AxiosGenerator.fileExtension = 'js';
+AxiosGenerator.languageHighlighter = 'javascript';
 registerCodeGenerator(AxiosGenerator);
